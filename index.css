@@ -1,3 +1,8 @@
 body {
   background-color: rgb(8, 36, 56);
+  padding: 50px;
+}
+
+label {
+  color: white;
 }
