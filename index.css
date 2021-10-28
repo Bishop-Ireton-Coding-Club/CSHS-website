@@ -1,8 +1,83 @@
 body {
   background-color: rgb(8, 36, 56);
   padding: 50px;
+  font-family: Muli;
 }
 
 label {
   color: white;
+}
+
+.content {
+  padding-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+a {
+  padding-left: 30px;
+  font-size: 14px;
+}
+
+a:hover {
+  color: rgb(120, 158, 207);
+  text-decoration: none;
+}
+
+.topnav-img {
+  float: left;
+}
+
+.about {
+  padding: 50px;
+}
+
+h1 {
+  color: white;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 40px;
+}
+
+input {
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(19, 19, 19);
+  font-weight: 300;
+  padding: 10px 10px 10px 30px;
+  width: 400px;
+  height: 60px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: rgb(235, 235, 235);
+  /* color: rgb(131, 131, 131); */
+}
+
+button {
+  background-color: rgb(61, 61, 61);
+  border-radius: 5px;
+  border: 0;
+  color: rgb(235, 235, 235);
+  font-weight: 300;
+  padding: 10px 10px 10px 10px;
+  width: 100px;
+  height: 60px;
+}
+
+.email {
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+.sidenote {
+  padding-top: 10px;
+  color: slategray;
 }
