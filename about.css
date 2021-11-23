@@ -4,8 +4,8 @@ body {
   font-family: Muli;
 }
 
-label {
-  color: white;
+::selection {
+  color: rgb(120, 158, 207);
 }
 
 .content {
@@ -13,6 +13,7 @@ label {
   display: flex;
   justify-content: flex-end;
 }
+
 a {
   padding-left: 30px;
   font-size: 14px;
@@ -23,12 +24,23 @@ a:hover {
   text-decoration: none;
 }
 
+a:active {
+  color: rgb(120, 158, 207);
+  text-decoration: none;
+}
+
+a:focus {
+  color: rgb(120, 158, 207);
+  text-decoration: none;
+}
+
 .topnav-img {
   float: left;
 }
 
 .about {
   padding: 50px;
+  margin-top: 50px;
 }
 
 h1 {
@@ -58,7 +70,6 @@ button:focus {
 
 ::placeholder {
   color: rgb(235, 235, 235);
-  /* color: rgb(131, 131, 131); */
 }
 
 button {

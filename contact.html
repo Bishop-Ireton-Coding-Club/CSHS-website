@@ -9,11 +9,259 @@
     />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap"
+    />
+    <link
+      rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="contact.css" />
     <link rel="icon" href="favicon.ico" />
   </head>
+  <body>
+    <nav>
+      <div class="topnav-img">
+        <img src="images/cshs.png" width="110px" height="110px" />
+      </div>
+      <div class="content">
+        <a href="about.html"><i class="fas fa-user"></i>&nbsp;&nbsp;About</a>
+        <a href="events.html"
+          ><i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;Events</a
+        >
+        <a href="service.html"
+          ><i class="fas fa-hands-helping"></i>&nbsp;&nbsp;Service</a
+        >
+        <a href="college.html">
+          <i class="fas fa-graduation-cap"></i>&nbsp;&nbsp;CS in College</a
+        >
+        <a class="active" href="contact.html"
+          ><i class="fas fa-address-card"></i>&nbsp;&nbsp;Contact Leadership</a
+        >
+        <a href="https://hackbi.org" target="_blank" rel="noreferrer noopener"
+          ><i class="fab fa-earlybirds"></i>&nbsp;&nbsp;Hack BI</a
+        >
+        <a
+          href="https://bishopiretoncoding.com/"
+          target="_blank"
+          rel="noreferrer noopener"
+          ><i class="fas fa-laptop-code"></i>&nbsp;&nbsp;Coding Club</a
+        >
+      </div>
+    </nav>
+
+    <section class="contact">
+      <h1>Meet the Leaders</h1>
+      <div class="card-container" id="contactForm" onclick="openPopup()">
+        <img
+          class="round"
+          src="images/natalie.png"
+          alt="user"
+          width="150px"
+          height="150px"
+        />
+        <h3>Mrs. Briody</h3>
+        <h5>
+          <a
+            href="mailto:mary.briody@bishopireton.org?subject = Feedback&body = CSHS Website Contact"
+          >
+            mary.briody@bishopireton.org
+          </a>
+        </h5>
+        <br />
+        <h6>CSHS Moderator</h6>
+        <p>
+          Computer Science Dept.<br />
+          Chair & Teacher
+        </p>
+        <div class="classes">
+          <h6>CS Classes Taught</h6>
+          <ul>
+            <li>AP CS P</li>
+            <li>Image Editing I</li>
+            <li>Image Editing II</li>
+            <li>HN Indepedent Study</li>
+          </ul>
+        </div>
+        <div class="quotes">
+          <h6>Quotes</h6>
+          <p>"I love CSHS because we do service and teach kids about CS"</p>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <img
+          class="round"
+          src="images/natalie.png"
+          alt="user"
+          width="150px"
+          height="150px"
+        />
+        <h3>Natalie Ramirez</h3>
+        <h5>
+          <a
+            href="mailto:natalie.ramirez22@bishopireton.org?subject = Feedback&body = CSHS Website Contact"
+          >
+            natalie.ramirez22@bishopireton.org
+          </a>
+        </h5>
+        <br />
+        <h6>CSHS President</h6>
+        <p>
+          Bishop Ireton<br />
+          Senior Student
+        </p>
+        <div class="classes">
+          <h6>CS Classes Taken</h6>
+          <ul>
+            <li>AP CS P</li>
+            <li>HN Adv. Programming</li>
+            <li>AP CS A</li>
+            <li>HN Indepedent Study</li>
+          </ul>
+        </div>
+        <div class="quotes">
+          <h6>Quotes</h6>
+          <p>
+            "CSHS is a community of students who do not only want to learn but
+            also to teach through service in CS, our shared interest."
+          </p>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <img
+          class="round"
+          src="images/natalie.png"
+          alt="user"
+          width="150px"
+          height="150px"
+        />
+        <h3>Maeve Chawk</h3>
+        <h5>
+          <a
+            href="mailto:maeve.chawk22@bishopireton.org?subject = Feedback&body = CSHS Website Contact"
+          >
+            maeve.chawk22@bishopireton.org
+          </a>
+        </h5>
+        <br />
+        <h6>
+          CSHS Vice President <br />
+          of Operations
+        </h6>
+        <p>
+          Bishop Ireton<br />
+          Senior Student
+        </p>
+        <div class="classes">
+          <h6>CS Classes Taken</h6>
+          <ul>
+            <li>AP CS P</li>
+            <li>AP CS A</li>
+            <li>HN Adv. Programming</li>
+            <li>HN Indepedent Study</li>
+          </ul>
+        </div>
+        <div class="quotes">
+          <h6>Quotes</h6>
+          <p>"I love CSHS because we do service and teach kids about CS"</p>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <img
+          class="round"
+          src="images/natalie.png"
+          alt="user"
+          width="150px"
+          height="150px"
+        />
+        <h3>Sarah Fleming</h3>
+        <h5>
+          <a
+            href="mailto:sarah.fleming22@bishopireton.org?subject = Feedback&body = CSHS Website Contact"
+          >
+            sarah.fleming22@bishopireton.org
+          </a>
+        </h5>
+        <br />
+        <h6>
+          CSHS Vice President <br />
+          of Operations
+        </h6>
+        <p>
+          Bishop Ireton<br />
+          Senior Student
+        </p>
+        <div class="classes">
+          <h6>CS Classes Taken</h6>
+          <ul>
+            <li>AP CS P</li>
+            <li>AP CS A</li>
+            <li>HN Adv. Programming</li>
+            <li>HN Indepedent Study</li>
+          </ul>
+        </div>
+        <div class="quotes">
+          <h6>Quotes</h6>
+          <p>"I love CSHS because we do service and teach kids about CS"</p>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <img
+          class="round"
+          src="images/natalie.png"
+          alt="user"
+          width="150px"
+          height="150px"
+        />
+        <h3>Joe Lis</h3>
+        <h5>
+          <a
+            href="mailto:joe.lis22@bishopireton.org?subject = Feedback&body = CSHS Website Contact"
+          >
+            joe.lis22@bishopireton.org
+          </a>
+        </h5>
+        <br />
+        <h6>
+          CSHS Vice President <br />
+          of Finance
+        </h6>
+        <p>
+          Bishop Ireton<br />
+          Senior Student
+        </p>
+        <div class="classes">
+          <h6>CS Classes Taken</h6>
+          <ul>
+            <li>AP CS P</li>
+            <li>HN Adv. Programming</li>
+            <li>AP CS A</li>
+            <li>HN Indepedent Study</li>
+          </ul>
+        </div>
+        <div class="quotes">
+          <h6>Quotes</h6>
+          <p>
+            "CSHS has made me more aware about what computer science can be like
+            in college and in the workplace "
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function openForm() {
+        document.getElementById("contactForm").style.display = "block";
+      }
+
+      function closeForm() {
+        document.getElementById("contactForm").style.display = "none";
+      }
+    </script>
+  </body>
 </html>
