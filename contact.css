@@ -19,6 +19,10 @@ a {
   font-size: 14px;
 }
 
+.active {
+  color: rgb(120, 158, 207);
+}
+
 a:hover {
   color: rgb(120, 158, 207);
   text-decoration: none;

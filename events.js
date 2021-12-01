@@ -66,6 +66,10 @@ const renderCalendar = () => {
     }
   }
 
+  // for (let k = 1; k <= lastDay; k++) {
+  //   days += `<div class="scheduledEvent">${k}</div`;
+  // }
+
   for (let j = 1; j <= nextDays; j++) {
     days += `<div class="next-date">${j}</div>`;
     monthDays.innerHTML = days;
@@ -79,6 +83,11 @@ document.querySelector(".prev").addEventListener("click", () => {
 
 document.querySelector(".next").addEventListener("click", () => {
   date.setMonth(date.getMonth() + 1);
+  renderCalendar();
+});
+
+document.querySelector(".days").addEventListener("click", () => {
+  $(".date").css("color", "red");
   renderCalendar();
 });
 
