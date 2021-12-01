@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(8, 36, 56);
+  padding: 50px;
+  font-family: Muli;
+}
+
+::selection {
+  color: rgb(120, 158, 207);
+}
+
+.content {
+  padding-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  padding-left: 30px;
+  font-size: 14px;
+}
+
+.active {
+  color: rgb(120, 158, 207);
+}
+
+a:hover {
+  color: rgb(120, 158, 207);
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(120, 158, 207);
+  text-decoration: none;
+}
+
+a:focus {
+  color: rgb(120, 158, 207);
+  text-decoration: none;
+}
+
+.topnav-img {
+  float: left;
+}
+
+.college {
+  padding: 50px;
+  margin-top: 50px;
+}
+
+h1 {
+  color: white;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 40px;
+}
