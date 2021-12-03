@@ -54,15 +54,9 @@ h1 {
   line-height: 40px;
 }
 
-input {
-  border: 0;
-  border-radius: 5px;
-  color: white;
-  background-color: rgb(19, 19, 19);
-  font-weight: 300;
-  padding: 10px 10px 10px 30px;
-  width: 400px;
-  height: 60px;
+.email {
+  padding-top: 20px;
+  font-size: 16px;
 }
 
 input:focus,
@@ -75,20 +69,28 @@ textarea:focus {
   color: rgb(235, 235, 235);
 }
 
-input[type="submit"] {
-  background-color: rgb(61, 61, 61);
-  border-radius: 5px;
+input {
   border: 0;
-  color: rgb(235, 235, 235);
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(19, 19, 19);
   font-weight: 300;
-  padding: 10px 10px 10px 10px;
-  width: 100px;
+  padding: 10px 10px 10px 30px;
+  width: 400px;
   height: 60px;
 }
 
-.email {
-  padding-top: 20px;
-  font-size: 16px;
+.submit {
+  background-color: rgb(61, 61, 61);
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  font-weight: 300;
+  padding: 22px 25px 20px 25px;
+}
+
+.submit:hover {
+  color: white;
 }
 
 .sidenote {
